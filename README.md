@@ -126,7 +126,9 @@ SELECT * FROM student_pass_rate_by_gender_age_group;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Đối với nhóm giới tinh nam (Male) thì tỷ lệ đỗ và điểm trung bình ko có 1 quy luật nào cả, nhóm nam giới lớp 12 có tỷ lệ đỗ cao nhất trong giới tính nam và cũng như toàn trường, nhóm nam trên 18+ có tỷ lệ đỗ thấp nhất trong giới tính nam và đứng thấp thứ 3 toàn trường, còn lại nhóm nam giới lớp 10 có tỷ lệ đỗ cao thứ 2 toàn nam giới và cao thứ 2 toàn trường, trong khi đó nhóm nam giới lớp 11 thì tỷ lệ đỗ ở mức trung bình
+- Đối với nhóm giới tính nữ (Female) thì nhớm nữ trên 18 tuổi có tỷ lệ đỗ thấp nhất ở nữ và thấp nhất toàn trường, nhóm nữ lớp 10 có tỷ lệ đỗ cao nhất toàn nữ và cao thứ 3 toàn trường, còn lại nhóm nữ lớp 11 có tỷ lệ đỗ thấp thứ 2 toàn trường và nhóm nữ lớp 12 có tỷ lệ đỗ cao thứ 4 toàn trường
+- Tỷ lệ đỗ và diểm trung bình ở nam giới (Male) đang cao hơn ở nữ giới rõ rệt, nhóm độ tuổi lớp 10 đang có tỷ lệ đỗ và điểm trung bình cao hơn các khối còn lại, nhóm lớp 12 có tỷ lệ đỗ và điểm trung bình cao thứ 2 sát nút với nhóm lớp 10, còn lại hai nhóm độ tuổi lớp 11 và 18+ đang có tỷ lệ đỗ và điểm trung bình thấp nhất toàn trường
 
 ---
 
@@ -168,7 +170,7 @@ SELECT * FROM vw_student_performance_trend_distribution;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Có tới 180/383 học sinh đang sa sút chiếm đến 47.00% tổng số học sinh toàn trường, trong khi dó chỉ có 92/383 học sinh là tiến bộ chiếm 24.02%, còn lại là học sinh ở mức dậm chân tại chỗ 111/383 chiếm 28.98%, điều này là rất đáng báo động khi chỉ có hơn 20% là tiến bộ còn số học sinh sa sút thì chiếm đến tận gần 50%
 
 ---
 
@@ -236,7 +238,11 @@ SELECT * FROM vw_study_hours_attendance_performance_matrix;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Ở nhóm tham gia ít, những học sinh tham gia ít nhưng tự học rất nhiều có kết quả rất cao với điểm trung bình là 71.68 và tỷ lệ đỗ là 100%, nhóm những học sinh tham gia ít nhưng học nhiều đứng thứ 2 với điểm trung bình là 58.54 và tỷ lệ đỗ 76.92%, nhóm tham gia ít và học trung bình đứng thứ 3 với điểm trùng bình là 46 và tỷ lệ đỗ là 38.89% và cuối cùng nhóm tham gia ít và học cũng ít đứng cuối cùng với điểm trùng bình là 41.5 và tỷ lệ đỗ là 20.83%
+- Ở nhóm tham gia trung bình, những học sinh tham gia trung bình nhưng tự học rất nhiều có kết quả rất cao với điểm trung bình là 72.58 và tỷ lệ đỗ là 100%, nhóm những học sinh tham gia trung bình nhưng học nhiều đứng thứ 2 với điểm trung bình là 63.19 và tỷ lệ đỗ 92.31%, nhóm tham gia trung bình và học trung bình đứng thứ 3 với điểm trùng bình là 46.0 và tỷ lệ đỗ là 31.01% và cuối cùng nhóm tham gia trung bình và học cũng ít đứng cuối cùng với điểm trùng bình là 43.62 và tỷ lệ đỗ là 28.57%
+- Ở nhóm tham gia rất nhiều, những học sinh tham gia rất nhiều nhưng tự học rất nhiều có kết quả rất cao với điểm trung bình là 75.85 và tỷ lệ đỗ là 100%, nhóm những học sinh tham gia rất nhiều nhưng học nhiều đứng thứ 2 với điểm trung bình là 65.52 và tỷ lệ đỗ 100%, nhóm tham gia rất nhiều và học trung bình đứng thứ 3 với điểm trùng bình là 54.24 và tỷ lệ đỗ là 76% và cuối cùng nhóm tham gia rất nhiều và học cũng ít đứng cuối cùng với điểm trùng bình là 45.57 và tỷ lệ đỗ là 30.43%
+- Và cuối cùng ở nhóm tham ra rất ít quan sát ta cũng sẽ thấy điều tương tự như 3 nhóm trên
+- Điều này cho ta thấy rằng rất rõ 1 điều rằng việc đi học đầy đủ hay không, chăm chỉ đến trường hay không nó không ảnh hưởng đến kết quả học tập của học sinh là điểm trung bình và tỷ lệ đỗ, mà điều ảnh hưởng thật sự đến kết quả học tập điểm trung bình và tỷ lệ đỗ của học sinh là mức độ tự học của học sinh đó, bằn chứng là ở cả 4 nhóm là tham gia rất ít , tham ra ít, tham gia trung bình và tham gia rất đầy đủ những học sinh dù có đi học đầy đủ hay không nhưng ý thức tự học cao đều có điểm trung bình cực cao và tỷ lệ đỗ là 100% ngược lại có những học sinh tham gia rất đầy đủ nhưng ko chịu tự học thì điểm trung bình rất thấp và tỷ lệ đỗ chỉ khoảng 20%
 
 ---
 
@@ -292,7 +298,7 @@ _Bảng 2: Pivot chênh lệch điểm (Score Gap)_
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Không có 1 quy tắc, một quy luật hay một mối liên hệ nào liên quan giữa trình độ học vấn của cha mẹ + có mạng internet hay không đến tỷ lệ đỗ và điểm trung bình của học sinh cả, những người có học vấn cao có in ternet con vẫn có thể trượt và người học thấp ko có internet nhưng con vẫn có thể đạt điểm cao và có tỷ lệ đỗ cao là chuyện hết sức bình thường
 
 ---
 
@@ -338,7 +344,9 @@ SELECT * FROM vw_study_hours_extracurricular_performance;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Ở nhóm có đi tham gia hoạt động ngoại khóa thì học sinh có giờ học trên 23h có điểm trung bình cuối kì cao nhất 73.02 điểm, học sinh có thời gian học từ 8 đến 23 giờ có điểm trung bình cao thứ 2 là 55.78 và nhóm thấp nhất là nhóm học sinh có thời gian học dưới 8 giờ có điểm trung bình 39.73
+- Ở nhóm không đi tham gia hoạt ngoại khóa thì học sinh có giơ học trên 23h có điểm trung bình cuối kì cao nhất 72.35 điểm, học sinh có thời gian học từ 8 đến 23 giờ có điểm trung bình cao thứ 2 là 54.67 và nhóm thấp nhất là nhóm học sinh có thời gian học dưới 8 giờ có điểm trung bình 41.45
+- Việc có đi hoạt động ngoại khóa hay không nó không ảnh hưởng đến điểm trung bình cuối kì của học sinh, tư duy ko cho con đi ngoại khóa vì sợ ảnh hưởng đến kết quả học tập là không đúng, kết quả học tập nó phải dựa vào thời gian tự học tập và rèn luyện của học sinh
 
 ---
 
@@ -411,7 +419,8 @@ _Bảng 2: Danh sách học sinh "Tụt dốc bất thường" (High Effort Unde
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Nhóm 4 sinh viên ở bảng 1 là những học sinh vượt khó và có sự tiến bộ vượt bậc khi điểm trung bình cuối kì lần trước của các em rất thấp chỉ 40 điểm nhưng sang kì này điểm trung bình cuối thì đã vượt lên mức giỏi trên 80 điểm, và các em cũng đều không có internet, nên có những khen thưởng và tuyên dương cho những em học sinh này, hỏi han trao đổi về cách các em học tập để giúp đỡ cho các bạn khác
+- Nhóm 4 học sinh trong bảng 2 là những học sinh nên được quan tâm và giúp đỡ, các em có điều kiện học tập tốt và đã cố gắng rất nhiều đi học rất đầy đủ khoảng 80%, số giờ học cũng rất nhiều khoảng 20 giờ, nhưng các em vẫn bị trượt và điểm trung bình thấp, nên động viên hỏi hỏi về những khó khăn mà các em đang gặp phải để tìm hướng giải quyết
 
 ---
 
@@ -467,7 +476,7 @@ SELECT * FROM top_3_students_by_parent_education;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Đây là top 3 những học sinh có thành tích tốt nhất trường trong năm qua, tiến hành khen thưởng và trao bằng khen có các em (có những vị trí đồng top 3)
 
 ---
 
@@ -508,7 +517,7 @@ ORDER BY risk_score;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- trong 4 nhóm rủi ro thì hiện tại nhóm rủi ro 1 đang có nhiều học sinh nhất với 188/383 học sinh chiếm khoảng 49% tổng số học sinh, tức là hơn 1 nửa số học sinh rơi vào nhóm rủi ro này, tuy chỉ là mức 1 nhưng tỷ lệ trượt của nhóm này cũng lên tới gần 30% (29.26%) điều này là tương đối nguy hiểm. nhóm 0 là nhóm có số lượng sinh viên nhiều thứ 2 với 91/383 chiếm 23.7% đây là nhóm ổn định nhất là có tỷ lệ trượt thấp nhất chưa tới 10%. nhóm 3 là nhóm nguy hiểm nhất khi nhóm này tỷ lệ trượt là 100 % tức là rơi vào nhóm này là trượt tuy nhiên hiện tại chỉ có 16/383 học sinh thuộc nhóm này chiếm 4% tổng số học sinh, xác định những học sinh thuộc nhóm này và có những điều chỉnh vể học tập. cuối cùng là nhóm 2 đây mới thực sự là nhóm nguy hiểm hiện tại khi tỷ lệ trược của nhóm này lên tới 66% và số lượng học sinh thuộc nhóm này lên tới 88/383 chiếm 23% tổng số học sinh
 
 ---
 
@@ -535,7 +544,7 @@ WHERE attendance_rate > 90;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Độ lệch chuẩn hiện tại đang tương đối cao nếu xét trên thang điểm 100, kết hợp với dải diểm rât dài từ nhỏ nhất là 29 đến cao nhất là 95 điều này cho thấy dữ liệu điểm trung bình cuối kì của nhóm học sinh này có độ biến động rất lớn, có những người điểm rất cao những cũng có những người điểm rất thấp, điều này là dễ hiểu vì bên trên ta đã phân tích và thấy rằng việc đi học chăm chỉ hay không, ko quyết định điểm trung bình cuối kì của học sinh.
 
 ---
 
@@ -601,4 +610,6 @@ SELECT * FROM vw_student_performance_master LIMIT 5;
 
 #### **Nhận xét & Insight (Insights)**
 
-- _[Viết nhận xét của bạn vào đây]_
+- Master View `vw_student_performance_master` đóng vai trò là "Single Source of Truth" (Nguồn dữ liệu chân lý duy nhất) cho toàn bộ hệ thống báo cáo của nhà trường.
+- Việc tích hợp sẵn các chỉ số phân tích phức tạp như `score_progress` (đo lường sự tiến bộ), `risk_flag` (phân loại rủi ro học tập) và `academic_tier` (phân khúc học lực của học sinh) giúp cho các phòng ban, giáo viên chủ nhiệm và Ban giám hiệu có thể ngay lập tức truy vấn thông tin mà không cần phải viết lại các phép tính phức tạp hay các hàm cửa sổ (Window Functions).
+- Đây là cơ sở dữ liệu làm sạch lý tưởng để kết nối trực tiếp với các công cụ trực quan hóa dữ liệu (BI Tools như Power BI, Tableau, Looker Studio) nhằm xây dựng hệ thống báo cáo thông minh (Dashboard) theo thời gian thực cho nhà trường.
